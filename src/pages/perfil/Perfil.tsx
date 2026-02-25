@@ -27,7 +27,7 @@ function Perfil() {
 
 				<img
 					className="rounded-full w-56 mx-auto mt-[-8rem] border-8 border-white relative z-10"
-					src={usuario.foto}
+					src={usuario.foto || "https://imgur.com/gallery/arthur-morgan-VOixLZV#AtGBfuo"}
 					alt={`Foto de perfil de ${usuario.nome}`}
 				/>
 
